@@ -1,0 +1,143 @@
+
+    div { font-size: 36px;}
+
+    ol {font-size: 48px; ;    
+       
+        background: linear-gradient(285deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);}
+    body {
+        background: linear-gradient(105deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    img {
+        
+        height : 20rem;
+        border : 3px solid blue;
+        border-radius:  20px;
+        alt:"Family Picture"}
+        
+    footer { height: 250 px; display: flex; overflow: hidden; align-items: center; text-align: center;}
+    .songs {height: 220px; display: inline; position: relative;
+            user-select: none; }
+    .songs-card{box-shadow: 0 2px 5px rgb(0 0 0 / 75%); border-radius: 150px;border: 0;
+                transition: box-shadow 200ms;position: relative; overflow: hidden;
+            }
+    
+    .songs .songs-card {width: 30%;height: 30%; object-fit: cover;}
+    .songs-card:hover{box-shadow:  0 8px 20px rgb(251 2 37);}
+    
+    .songs-card-info {
+        position: relative;
+        text-align: center;
+        bottom: 100px;
+        left: 0;
+        right: 0;
+        color: white;
+        }
+
+    .song-card-artist {
+        font-size: 1em;
+        font-weight: bold;
+        line-height: 1.2em;
+    }
+
+    .song-card-song{
+        font-size: 0.7em;
+        line-height: 1em;
+
+
+    }
+
+    .song-card-artist,
+    .song-card-song {white-space: nowrap;
+    overflow: hidden; text-overflow: ellipsis;}
+    
+    .play {width: 50px; height: 50px; background-color: greenyellow;position: absolute; align-items: center; bottom: 10px, left 0px;;}
+    h1{ display: inline;
+        border: 2px solid red;
+      
+    }  
+    div {  font-family: 'Courier New', Courier, monospace }
+    .Male {
+        color: green;
+        display: inline;
+        border: 2px solid green;
+     
+    }  
+    .Female  {
+        color: pink;
+        display: inline;
+        border: 2px solid pink;
+       
+    }
+    #Hun {display: inline-block; 
+        height: 5rem;
+         font-family: Arial, Helvetica, sans-serif;
+        background: linear-gradient(180deg, rgba(248, 0, 0, 1) 0%,rgba(255,255,255,1) 50%, rgb(0, 255, 13) 100%);;}
+    #GB{ display: inline-block; 
+        height: 5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        background: linear-gradient(90deg, rgba(34,0,255,1) 0%, rgba(255,255,255,1) 76%, rgba(252,69,69,1) 100%);
+    }
+    #Gib{display: inline-block; 
+         height: 5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        background: linear-gradient(90deg, rgba(252,69,69,1) 0%, rgba(255,255,255,1) 100%);
+    }
+    #SP{ display: inline-block; 
+         height: 5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        background: linear-gradient(180deg, rgba(252,69,69,1) 0%, rgba(254,252,173,1) 40%, rgba(254,252,173,1) 64%, rgba(252,69,69,1) 100%);
+
+    }
+    nav .navigation-menu li{
+        display:inline-block ;
+        margin-right: 1rem
+
+
+    }
+    .flex-container {    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 20px;
+        border: cornsilk solid 10px;
+        height: 300px;
+        ;}
+    .box { 
+        margin: 5px;
+        width:120px;
+        height: 120px;
+        background-color: #ff0000;
+        border-radius:  20px;;
+    }
+    .red {background-color: #FF033E
+        ;flex: 3 0 auto;
+        order: 2;
+    }
+
+    .green {background-color: #7FFF00; flex: 2 1 auto;order: 1;}
+
+    .blue {background-color: #00FFFF;flex: 1 2 auto; 
+        order:3
+         }
+
+    div + p { color: red}
+    
+    
+    ol a[target= "_blank"] {
+            color: greenyellow;
+        
+        }
+    a:hover { background-color: royalblue;}
+
+    a:focus {background-color: gray;
+    color: white;}
+
+    body div p:nth-child(2) {color: white}
+    body div p:last-child {color: rgb(100, 250, 14)}
+  
+        
+    
